@@ -1,0 +1,20 @@
+#!ipxe
+menu PXE BOOT TABLE
+item window Windows10 Pro
+item --gap
+item back iPXE BOOT TABLE 
+#chooose --timeout 20000 --default back target && goto ${target} || goto menu
+
+:window
+
+cpuid --ext 29 && set arch amd64 || set arch x86
+kernel wimboot
+initrd /BOOTMGR		BOOTMGR
+initrd Boot/bcd		bcd
+initrd Boot/boot.sdi		boot.sdi
+initrd sources/boot.wim	boot.wim
+boot
+
+
+:back
+exit
