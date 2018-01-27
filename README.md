@@ -5,6 +5,7 @@ Windows PE files mv to apache2 default directory(/var/www/html)
 * Need to modify dnsmasq.conf 
 
 # dnsmasq.conf default set
+# interface : wlan0
 # DHCP & IPXE Server Address : 192.168.0.20
 # DHCP Range : 192.168.0.200 ~ 192.168.0.250
 # IPXE config file : boot.ipxe
