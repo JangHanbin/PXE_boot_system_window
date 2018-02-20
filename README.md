@@ -18,7 +18,7 @@ Windows PE files mv to apache2 default directory(/var/www/html)
 
 # Tested
 * Kali Linux 4.12.0-kali1-amd64
-
+* Ubuntu 16.04 LTS has un unknown error. need to change name /tftpboot/undionly.ipxe -> /tftpboot/undionly.ipxe.0 
 * This Repository dosen't include Windows PE file.
 
 http://dork94.tistory.com
