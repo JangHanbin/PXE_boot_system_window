@@ -1,6 +1,6 @@
-*Window PE PXE boot using IPXE , Apache2, wimboot, dnsmasq
+Window PE PXE boot using IPXE , Apache2, wimboot, dnsmasq
 
-*Windows PE files mv to apache2 default directory(/var/www/html)
+Windows PE files mv to apache2 default directory(/var/www/html)
 
 # Need to modify dnsmasq.conf 
 
@@ -21,4 +21,4 @@
 * Kali Linux 4.12.0-kali1-amd64
 
 
-http://dor94.tistory.com
+http://dork94.tistory.com
