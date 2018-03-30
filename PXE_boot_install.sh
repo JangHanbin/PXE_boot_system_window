@@ -9,7 +9,7 @@ mv bin/undionly.kpxe /tftpboot
 
 wget http://git.ipxe.org/releases/wimboot/wimboot-latest.zip
 unzip wimboot-latest.zip
-WIMDIR= $(ls | grep wimboot-*-signed)
+WIMDIR=$(ls | grep wimboot-*-signed)
 cd "$WIMDIR"
 cp wimboot /var/www/html
 cd ..
