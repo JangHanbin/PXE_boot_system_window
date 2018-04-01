@@ -6,6 +6,8 @@ cd ipxe/src
 make bin/undionly.kpxe
 mkdir /tftpboot
 mv bin/undionly.kpxe /tftpboot
+cd ..
+cd ..
 
 wget http://git.ipxe.org/releases/wimboot/wimboot-latest.zip
 unzip wimboot-latest.zip
